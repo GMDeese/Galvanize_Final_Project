@@ -1,0 +1,176 @@
+.mainTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid black;
+}
+
+.subSection1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid lightgrey;
+  background-color: lightcyan;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+
+#mainBody {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 2px solid lightgray;
+}
+
+#inputCriteria1 {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+  background-color: lightgrey;
+  border-radius: 0.5rem;
+  height: 500px;
+  width: 300px;
+}
+
+#userList {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem;
+  background-color: lightgrey;
+  border-radius: 0.5rem;
+  height: 500px;
+  width: 300px;
+}
+
+#inputField1 {
+    flex-direction:;
+}
+
+#users {
+    width: 200px;
+    height: auto;
+    
+}#todo {
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 25px;
+    font-size: 1rem;
+}
+
+#add {
+    width: auto;
+    height:50px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow:4px 2px 2px black ;
+}
+
+#inputcriteria h1 {
+    text-align: center;
+}
+
+
+#list {
+    margin: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+}
+
+#inputCriteria2 {
+display: flex;
+margin: 1rem;
+border: 2px solid lightgrey;
+background-color: lightgrey;
+border-radius: 0.5rem;
+height: 500px;
+width: 100%;
+}
+
+#inputtable2 {
+flex-grow: 1;
+align-self: center;
+margin: 2rem;
+}
+
+tbody {
+    justify-content: center
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+.col1 {
+    width: 50px;
+    text-align: center;
+}
+.row {
+}
+
+tr {
+}
+
+td {
+  text-align: left;
+  border-bottom: 2px solid gray;
+  flex-grow: 1;
+}
+
+.textArea {
+    width: auto;
+    height: 40px;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+th[scope="col"] {
+  background-color: #696969;
+  color: #fff;
+  width: 200px;
+  align-items: center;
+}
+
+th[scope="row"] {
+  background-color:lightgray;
+}
+
+
+#acceptCriteria {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  border: 2px solid lightgrey;
+  background-color: lightgrey;
+  border-radius: 0.5rem;
+  height: 200px;
+  width: 600px;
+}
+
+.subSection2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid lightgrey;
+  background-color: lightgreen;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+#outPut1 {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  border: 2px solid lightgrey;
+  background-color: lightgrey;
+  border-radius: 0.5rem;
+  height: 600px;
+  width: 600px;
