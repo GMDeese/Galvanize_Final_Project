@@ -16,13 +16,15 @@
     <div class="subSection1">
       <h3>Input Section</h3>
     </div>
+
     <div id="mainBody">
         <section id="inputCriteria1">
-            <h1>Add a user types below</h1>
-            <input type="text" id="todo" />
+            <h1>Step #1</h1>
+            <br>
+            <input type="text" id="userInput" placeholder="Enter a user type here" />
             <caption><em>Think of every possible user type you can and submit each seperately</em></caption>
             <br>
-            <button id="add">Click here to add above user to your list</button>
+            <button id="add">Click to add to your user list</button>
         </section>
         <section id="userList">
             <h1><u><b>Your Generated User List:</b></u></h1>
@@ -30,7 +32,7 @@
             <br>
             <script src="./script.js"></script>
         </section>
-</body>
+
       </section>
       <section style="overflow-x: auto" id="inputCriteria2">
         <table id="inputtable2">
@@ -46,17 +48,14 @@
             <td>
               <label
                 >As a..
-                <select name="users" id="users">
-                  <option value="1">User #1</option>
-                  <option value="2">User #2</option>
-                  <option value="3">User #3</option>
-                  <option value="4">User #4</option>
+                <select name="users" id="dropdown" class="users">
                 </select>
               </label>
             </td>
             <td>
               <textarea
-                class="textarea"
+                class="textarea"  
+                id="textarea1a"
                 rows="2"
                 cols="50"
                 wrap="hard"
@@ -65,7 +64,8 @@
             </td>
             <td>
               <textarea
-                class="textarea"
+              class="textarea"  
+                id="textarea1b"
                 rows="2"
                 cols="50"
                 wrap="hard"
@@ -73,7 +73,7 @@
               ></textarea>
             </td>
             <td>
-                <textarea class="textarea" rows="2" cols="50" wrap="hard" placeholder="You will know you are done when..."></textarea>
+                <textarea class="textarea" id="textarea1c" rows="2" cols="50" wrap="hard" placeholder="You will know you are done when..."></textarea>
             </td>
           </tr>
           <tr class="row">
@@ -81,11 +81,8 @@
             <td>
               <label
                 >As a..
-                <select name="users" id="users">
-                  <option value="1">User #1</option>
-                  <option value="2">User #2</option>
-                  <option value="3">User #3</option>
-                  <option value="4">User #4</option>
+                <select name="users" class="users">
+                 
                 </select>
               </label>
             </td>
@@ -117,11 +114,8 @@
             <td class="colText2">
               <label
                 >As a..
-                <select name="users" id="users">
-                  <option value="user1">User #1</option>
-                  <option value="user2">User #2</option>
-                  <option value="user3">User #3</option>
-                  <option value="user4">User #4</option>
+                <select name="users" class="users">
+                 
                 </select>
               </label>
             </td>
@@ -153,11 +147,8 @@
             <td class="colText2">
               <label
                 >As a..
-                <select name="users" id="users">
-                  <option value="user1">User #1</option>
-                  <option value="user2">User #2</option>
-                  <option value="user3">User #3</option>
-                  <option value="user4">User #4</option>
+                <select name="users" class="users">
+                  
                 </select>
               </label>
             </td>
@@ -189,11 +180,8 @@
             <td>
               <label
                 >As a..
-                <select name="users" id="users">
-                  <option value="user1">User #1</option>
-                  <option value="user2">User #2</option>
-                  <option value="user3">User #3</option>
-                  <option value="user4">User #4</option>
+                <select name="users" class="users">
+                 
                 </select>
               </label>
             </td>
@@ -213,11 +201,8 @@
             <td>
               <label
                 >As a..
-                <select name="users" id="users">
-                  <option value="user1">User #1</option>
-                  <option value="user2">User #2</option>
-                  <option value="user3">User #3</option>
-                  <option value="user4">User #4</option>
+                <select name="users" class="users">
+                 
                 </select>
               </label>
             </td>
@@ -236,11 +221,8 @@
             <td>
               <label
                 >As a..
-                <select name="users" id="users">
-                  <option value="user1">User #1</option>
-                  <option value="user2">User #2</option>
-                  <option value="user3">User #3</option>
-                  <option value="user4">User #4</option>
+                <select name="users" class="users">
+                 
                 </select>
               </label>
             </td>
@@ -270,11 +252,8 @@
             <td>
               <label
                 >As a..
-                <select name="users" id="users">
-                  <option value="user1">User #1</option>
-                  <option value="user2">User #2</option>
-                  <option value="user3">User #3</option>
-                  <option value="user4">User #4</option>
+                <select name="users" class="users">
+                 
                 </select>
               </label>
             </td>
@@ -304,11 +283,8 @@
             <td>
               <label
                 >As a..
-                <select name="users" id="users">
-                  <option value="user1">User #1</option>
-                  <option value="user2">User #2</option>
-                  <option value="user3">User #3</option>
-                  <option value="user4">User #4</option>
+                <select name="users" class="users">
+                  
                 </select>
               </label>
             </td>

@@ -15,7 +15,6 @@
   margin: 1rem;
 }
 
-
 #mainBody {
   display: flex;
   flex-wrap: wrap;
@@ -50,59 +49,55 @@
 }
 
 #inputField1 {
-    flex-direction:;
 }
 
 #users {
-    width: 99%;
-    height: auto;
-    
-}#todo {
-    margin-bottom: 1rem;
-    width: 300px;
-    height: 25px;
-    font-size: 1rem;
+  width: 99%;
+  height: auto;
+}
+#userInput {
+  margin-bottom: 1rem;
+  width: 300px;
+  height: 25px;
+  font-size: 1rem;
 }
 
 #add {
-    width: auto;
-    height:50px;
-    font-size: 1rem;
-    border-radius: 10px;
-    box-shadow:4px 2px 2px black ;
+  width: auto;
+  height: 50px;
+  font-size: 1rem;
+  border-radius: 10px;
+  box-shadow: 4px 2px 2px black;
 }
 
 #inputcriteria h1 {
-    text-align: center;
+  text-align: center;
 }
 
-
 #list {
-    margin: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif  ;
+  margin: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #inputCriteria2 {
-display: flex;
-margin: 1rem;
-border: 2px solid lightgrey;
-background-color: lightgrey;
-border-radius: 0.5rem;
-height: 500px;
-width: 100%;
+  display: flex;
+  margin: 1rem;
+  border: 2px solid lightgrey;
+  background-color: lightgrey;
+  border-radius: 0.5rem;
+  height: 500px;
+  width: 100%;
 }
 
 #inputtable2 {
-flex-grow: 1;
-align-self: center;
-margin: 2rem;
+  flex-grow: 1;
+  align-self: center;
+  margin: 2rem;
 }
 
 tbody {
-    justify-content: center
-    display: flex;
-    flex-grow: 1;
-    
+  justify-content: center display flex;
+  flex-grow: 1;
 }
 
 .textarea {
@@ -116,10 +111,10 @@ td {
 }
 
 .textArea {
-    width: auto;
-    height: 40px;
-    justify-content: flex-start;
-    flex-grow: 1;
+  width: auto;
+  height: 40px;
+  justify-content: flex-start;
+  flex-grow: 1;
 }
 
 th[scope="col"] {
@@ -137,9 +132,8 @@ th[scope="col1"] {
 }
 
 th[scope="row"] {
-  background-color:lightgray;
+  background-color: lightgray;
 }
-
 
 #acceptCriteria {
   display: flex;
@@ -170,7 +164,7 @@ th[scope="row"] {
   background-color: cyan;
   color: black;
   border-radius: 10px;
-  box-shadow:4px 2px 2px gray;
+  box-shadow: 4px 2px 2px gray;
   margin: 2rem;
 }
 
@@ -185,3 +179,4 @@ th[scope="row"] {
   border-radius: 0.5rem;
   height: 600px;
   width: 600px;
+}
