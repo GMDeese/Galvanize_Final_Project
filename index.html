@@ -21,8 +21,7 @@
     </div>
     <div id="mainBody">
         <section id="inputCriteria1">
-            <h1>Step #1</h1>
-            <br>
+            
             <input type="text" id="userInput" placeholder="Enter a user type here" />
             <caption><em>Think of every possible user type you can and submit each seperately</em></caption>
             <br>
@@ -45,16 +44,15 @@
             <th scope="col">How will the assigned developer know the work is done?</th>
             <th scope="col">Submit when ready to generate user story</th>
           </tr>
-          <tr class="row">
-            <td class="col1">#1</td>
-            <td>
+          <tr id="row1" class="row">
+            <td id="col1" class="col1">#1</td>
+            <td id="col2">
               <label
                 >As a..
-                <select name="users" id="dropdown" class="users">
-                </select>
+                <select name="users" id="dropdown" class="users"></select>
               </label>
             </td>
-            <td>
+            <td id="col3">
               <textarea
                 class="textarea"  
                 id="textarea1a"
@@ -64,9 +62,9 @@
                 placeholder="I want to..."
               ></textarea>
             </td>
-            <td>
+            <td id="col4">
               <textarea
-              class="textarea"  
+                class="textarea"  
                 id="textarea1b"
                 rows="2"
                 cols="50"
@@ -75,18 +73,16 @@
               ></textarea>
             </td>
             <td>
-                <textarea class="textarea" id="textarea1c" rows="2" cols="50" wrap="hard" placeholder="You will know you are done when..."></textarea>
+                <textarea id="col5" class="textarea" id="textarea1c" rows="2" cols="50" wrap="hard" placeholder="You will know you are done when..."></textarea>
             </td>
-            <td><button id="button1">Generate User Story!</button></td>
+            <td><button onclick="generateUserStory(event)" id="button1">Generate User Story!</button></td>
           </tr>
           <tr class="row">
             <td class="col1" scope="row">#2</td>
             <td>
               <label
                 >As a..
-                <select name="users" class="users">
-                 
-                </select>
+                <select name="users" class="users"></select>
               </label>
             </td>
             <td>
@@ -113,6 +109,7 @@
                 <textarea class="textarea" id="textarea2c" rows="2" cols="50" wrap="hard"
                     placeholder="You will know you are done when..."></textarea>
             </td>
+            <td><button id="button2">Generate User Story!</button></td>
           </tr>
           <tr class="row">
             <td class="col1" scope="row">#3</td>
@@ -144,6 +141,7 @@
                 <textarea class="textarea" rows="2" cols="50" wrap="hard"
                     placeholder="You will know you are done when..."></textarea>
             </td>
+            <td><button id="button3">Generate User Story!</button></td>
           </tr>
           <tr class="row">
             <td class="col1" scope="row">#4</td>
@@ -179,6 +177,7 @@
                 <textarea class="textarea" name="us1" rows="2" cols="50" wrap="hard"
                     placeholder="You will know you are done when..."></textarea>
             </td>
+            <td><button id="button4">Generate User Story!</button></td>
           </tr>
           <tr class="row">
             <td class="col1" scope="row">#5</td>
@@ -200,6 +199,7 @@
                 <textarea class="textarea" rows="2" cols="50" wrap="hard"
                     placeholder="You will know you are done when..."></textarea>
             </td>
+            <td><button id="button5">Generate User Story!</button></td>
           </tr>
           <tr class="row">
             <td class="col1" scope="row">#6</td>
@@ -220,6 +220,7 @@
             <td>
                 <textarea class="textarea" rows="2" cols="50" wrap="hard" placeholder="You will know you are done when..."></textarea>
             </td>
+            <td><button id="button6">Generate User Story!</button></td>
           </tr>
           <tr class="row">
             <td class="col1" scope="row">#7</td>
@@ -251,6 +252,7 @@
             </td><td>
                 <textarea class="textarea" rows="2" cols="50" wrap="hard" placeholder="You will know you are done when..."></textarea>
             </td>
+            <td><button id="button7">Generate User Story!</button></td>
           </tr>
           <tr class="row">
             <td class="col1" scope="row">#8</td>
@@ -282,6 +284,7 @@
             </td><td>
                 <textarea class="textarea" rows="2" cols="50" wrap="hard" placeholder="You will know you are done when..."></textarea>
             </td>
+            <td><button id="button8">Generate User Story!</button></td>
           </tr>
           <tr class="row">
             <td class="col1" scope="row">#9</td>
@@ -313,6 +316,7 @@
             </td><td>
                 <textarea class="textarea" rows="2" cols="50" wrap="hard" placeholder="You will know you are done when..."></textarea>
             </td>
+            <td><button id="button9">Generate User Story!</button></td>
           </tr>
         </table>
       </section>
