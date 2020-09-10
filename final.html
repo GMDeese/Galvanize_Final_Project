@@ -14,9 +14,11 @@
       </div>
     </header>
     <div class="subSection1">
+
+<!-- Input Section -->
+
       <h3>Input Section</h3>
     </div>
-
     <div id="mainBody">
         <section id="inputCriteria1">
             <h1>Step #1</h1>
@@ -32,7 +34,6 @@
             <br>
             <script src="./script.js"></script>
         </section>
-
       </section>
       <section style="overflow-x: auto" id="inputCriteria2">
         <table id="inputtable2">
@@ -42,6 +43,7 @@
             <th scope="col">As your selected user, what do you want to do?</th>
             <th scope="col">What you want the result to be?</th>
             <th scope="col">How will the assigned developer know the work is done?</th>
+            <th scope="col">Submit when ready to generate user story</th>
           </tr>
           <tr class="row">
             <td class="col1">#1</td>
@@ -75,6 +77,7 @@
             <td>
                 <textarea class="textarea" id="textarea1c" rows="2" cols="50" wrap="hard" placeholder="You will know you are done when..."></textarea>
             </td>
+            <td><button id="button1">Generate User Story!</button></td>
           </tr>
           <tr class="row">
             <td class="col1" scope="row">#2</td>
@@ -89,6 +92,7 @@
             <td>
               <textarea
                 class="textarea"
+                id="textarea2a"
                 rows="2"
                 cols="50"
                 wrap="hard"
@@ -98,6 +102,7 @@
             <td>
               <textarea
                 class="textarea"
+                id="textarea2b"
                 rows="2"
                 cols="50"
                 wrap="hard"
@@ -105,7 +110,7 @@
               ></textarea>
             </td>
             <td>
-                <textarea class="textarea" rows="2" cols="50" wrap="hard"
+                <textarea class="textarea" id="textarea2c" rows="2" cols="50" wrap="hard"
                     placeholder="You will know you are done when..."></textarea>
             </td>
           </tr>
@@ -114,9 +119,7 @@
             <td class="colText2">
               <label
                 >As a..
-                <select name="users" class="users">
-                 
-                </select>
+                <select name="users" class="users"></select>
               </label>
             </td>
             <td>
@@ -154,6 +157,7 @@
             </td>
             <td>
               <textarea
+                name="us1"
                 class="textarea"
                 rows="2"
                 cols="50"
@@ -163,6 +167,7 @@
             </td>
             <td>
               <textarea
+                name="us1"
                 class="textarea"
                 rows="2"
                 cols="50"
@@ -171,7 +176,7 @@
               ></textarea>
             </td>
             <td>
-                <textarea class="textarea" rows="2" cols="50" wrap="hard"
+                <textarea class="textarea" name="us1" rows="2" cols="50" wrap="hard"
                     placeholder="You will know you are done when..."></textarea>
             </td>
           </tr>
@@ -313,11 +318,19 @@
       </section>
       <button id="submitButton">Generate All Use Stories Now!</button>
     </div>
+
+<!-- Output Section -->
+
     <div class="subSection2">
       <h3>Output Section</h3>
     </div>
     <div id="mainBody">
-      <section id="outPut1"></section>
+      <section id="output">
+        <h1><u><b>Your Generated User Stories:</b></u></h1>
+        <br>
+        <ol id="stories"></ol>
+        <script src="./script.js"></script>
+      </section>
     </div>
   </body>
 </html>

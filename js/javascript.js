@@ -19,6 +19,8 @@ function addUser() {
     createOption.innerText = user;
     // Append options element with dropdown element
     dropdownList[i].appendChild(createOption);
+    var inputfield = document.getElementById("userInput");
+    document.getElementById("userInput").reset();
   }
 }
 
