@@ -180,3 +180,15 @@ th[scope="row"] {
   height: 600px;
   width: 600px;
 }
+
+.stories {
+  padding-bottom: 3rem;
+}
+
+.userStoryTitle {
+  color: #696969;
+}
+
+#outputTitle {
+  font-size: xx-large;
+}

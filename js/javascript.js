@@ -23,9 +23,193 @@ function addUser() {
   }
 }
 
-function generateUserStory(event) {
+function generateUserStory1(event) {
   console.log("event", event);
-  var newStory = document.getElementById("list");
+  var userDefined = document.getElementById("dropdown1").value;
+  var textAreas = document.getElementsByClassName("textarea");
+  var results = document.getElementById("story1");
+
+  results.innerHTML =
+    "<i>User Story #1</i>" + "<br />" + "<br />" + "As a(n) " + userDefined;
+  results.innerHTML +=
+    ", " +
+    textAreas[0].value +
+    ", " +
+    textAreas[1].value +
+    ". " +
+    "<br />" +
+    "<br />" +
+    "<u>Aceptance Criteria: </u>" +
+    "<br />" +
+    textAreas[2].value;
+}
+
+function generateUserStory2(event) {
+  console.log("event", event);
+  var userDefined = document.getElementById("dropdown2").value;
+  var textAreas = document.getElementsByClassName("textarea");
+  var results = document.getElementById("story2");
+
+  results.innerHTML =
+    "<i>User Story #2</i>" + "<br />" + "<br />" + "As a(n) " + userDefined;
+  results.innerHTML +=
+    ", " +
+    textAreas[0].value +
+    ", " +
+    textAreas[1].value +
+    ". " +
+    "<br />" +
+    "<br />" +
+    "<u>Aceptance Criteria: </u>" +
+    "<br />" +
+    textAreas[2].value;
+}
+
+function generateUserStory3(event) {
+  console.log("event", event);
+  var userDefined = document.getElementById("dropdown3").value;
+  var textAreas = document.getElementsByClassName("textarea");
+  var results = document.getElementById("story3");
+
+  results.innerHTML =
+    "<i>User Story #3</i>" + "<br />" + "<br />" + "As a(n) " + userDefined;
+  results.innerHTML +=
+    ", " +
+    textAreas[0].value +
+    ", " +
+    textAreas[1].value +
+    ". " +
+    "<br />" +
+    "<br />" +
+    "<u>Aceptance Criteria: </u>" +
+    "<br />" +
+    textAreas[2].value;
+}
+
+function generateUserStory4(event) {
+  console.log("event", event);
+  var userDefined = document.getElementById("dropdown4").value;
+  var textAreas = document.getElementsByClassName("textarea");
+  var results = document.getElementById("story4");
+
+  results.innerHTML =
+    "<i>User Story #4</i>" + "<br />" + "<br />" + "As a(n) " + userDefined;
+  results.innerHTML +=
+    ", " +
+    textAreas[0].value +
+    ", " +
+    textAreas[1].value +
+    ". " +
+    "<br />" +
+    "<br />" +
+    "<u>Aceptance Criteria: </u>" +
+    "<br />" +
+    textAreas[2].value;
+}
+
+function generateUserStory5(event) {
+  console.log("event", event);
+  var userDefined = document.getElementById("dropdown5").value;
+  var textAreas = document.getElementsByClassName("textarea");
+  var results = document.getElementById("story5");
+
+  results.innerHTML =
+    "<i>User Story #5</i>" + "<br />" + "<br />" + "As a(n) " + userDefined;
+  results.innerHTML +=
+    ", " +
+    textAreas[0].value +
+    ", " +
+    textAreas[1].value +
+    ". " +
+    "<br />" +
+    "<br />" +
+    "<u>Aceptance Criteria: </u>" +
+    "<br />" +
+    textAreas[2].value;
+}
+
+function generateUserStory6(event) {
+  console.log("event", event);
+  var userDefined = document.getElementById("dropdown6").value;
+  var textAreas = document.getElementsByClassName("textarea");
+  var results = document.getElementById("story6");
+
+  results.innerHTML =
+    "<i>User Story #6</i>" + "<br />" + "<br />" + "As a(n) " + userDefined;
+  results.innerHTML +=
+    ", " +
+    textAreas[0].value +
+    ", " +
+    textAreas[1].value +
+    ". " +
+    "<br />" +
+    "<br />" +
+    "<u>Aceptance Criteria: </u>" +
+    "<br />" +
+    textAreas[2].value;
+}
+
+function generateUserStory7(event) {
+  console.log("event", event);
+  var userDefined = document.getElementById("dropdown7").value;
+  var textAreas = document.getElementsByClassName("textarea");
+  var results = document.getElementById("story7");
+
+  results.innerHTML =
+    "<i>User Story #7</i>" + "<br />" + "<br />" + "As a(n) " + userDefined;
+  results.innerHTML +=
+    ", " +
+    textAreas[0].value +
+    ", " +
+    textAreas[1].value +
+    ". " +
+    "<br />" +
+    "<br />" +
+    "<u>Aceptance Criteria: </u>" +
+    "<br />" +
+    textAreas[2].value;
+}
+
+function generateUserStory8(event) {
+  console.log("event", event);
+  var userDefined = document.getElementById("dropdown8").value;
+  var textAreas = document.getElementsByClassName("textarea");
+  var results = document.getElementById("story8");
+
+  results.innerHTML =
+    "<i>User Story #8</i>" + "<br />" + "<br />" + "As a(n) " + userDefined;
+  results.innerHTML +=
+    ", " +
+    textAreas[0].value +
+    ", " +
+    textAreas[1].value +
+    ". " +
+    "<br />" +
+    "<br />" +
+    "<u>Aceptance Criteria: </u>" +
+    "<br />" +
+    textAreas[2].value;
+}
+
+function generateUserStory9(event) {
+  console.log("event", event);
+  var userDefined = document.getElementById("dropdown9").value;
+  var textAreas = document.getElementsByClassName("textarea");
+  var results = document.getElementById("story9");
+
+  results.innerHTML =
+    "<i>User Story #9</i>" + "<br />" + "<br />" + "As a(n) " + userDefined;
+  results.innerHTML +=
+    ", " +
+    textAreas[0].value +
+    ", " +
+    textAreas[1].value +
+    ". " +
+    "<br />" +
+    "<br />" +
+    "<u>Aceptance Criteria: </u>" +
+    "<br />" +
+    textAreas[2].value;
 }
 
 document.getElementById("userInput").addEventListener("change", captureInput);
