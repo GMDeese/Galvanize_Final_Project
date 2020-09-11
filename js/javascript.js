@@ -212,5 +212,39 @@ function generateUserStory9(event) {
     textAreas[2].value;
 }
 
+function generateUserStories(event) {
+  console.log("create all user stories");
+  document
+    .getElementById("submitButton")
+    .addEventListener("click", generateUserStory1);
+  document
+    .getElementById("submitButton")
+    .addEventListener("click", generateUserStory2);
+  document
+    .getElementById("submitButton")
+    .addEventListener("click", generateUserStory3);
+  document
+    .getElementById("submitButton")
+    .addEventListener("click", generateUserStory4);
+  document
+    .getElementById("submitButton")
+    .addEventListener("click", generateUserStory5);
+  document
+    .getElementById("submitButton")
+    .addEventListener("click", generateUserStory6);
+  document
+    .getElementById("submitButton")
+    .addEventListener("click", generateUserStory7);
+  document
+    .getElementById("submitButton")
+    .addEventListener("click", generateUserStory8);
+  document
+    .getElementById("submitButton")
+    .addEventListener("click", generateUserStory9);
+}
+
 document.getElementById("userInput").addEventListener("change", captureInput);
 document.getElementById("add").addEventListener("click", addUser);
+document
+  .getElementById("submitButton")
+  .addEventListener("click", generateUserStories);
