@@ -192,3 +192,12 @@ th[scope="row"] {
 #outputTitle {
   font-size: xx-large;
 }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  height: 50px;
+  background-color: lightgray;
+}
